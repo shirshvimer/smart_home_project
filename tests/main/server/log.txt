@@ -1,0 +1,306 @@
+Time: Wed Dec 21 10:18:41 2022
+Type: ENTRANCE_REQUEST
+Floor: 4
+Room: entrance_4_g
+Payload: 12 ABDE570 
+
+Time: Wed Dec 21 10:18:41 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 29 
+
+Time: Wed Dec 21 10:18:41 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:41 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:41 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 29 
+
+Time: Wed Dec 21 10:18:41 2022
+Type: CONTROLLER_DOOR
+Floor: 4
+Room: entrance_4_g
+Payload: Lock_OK 
+
+Time: Wed Dec 21 10:18:41 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 29 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 85 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 85 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 85 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: ENTRANCE_REQUEST
+Floor: 4
+Room: entrance_4_g
+Payload: 17 X2XXO73 
+
+Time: Wed Dec 21 10:18:42 2022
+Type: CONTROLLER_DOOR
+Floor: 4
+Room: entrance_4_g
+Payload: Lock_OK 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 53 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 53 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: ENTRANCE_REQUEST
+Floor: 4
+Room: entrance_4_g
+Payload: 25 Y3RTF45 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: CONTROLLER_DOOR
+Floor: 4
+Room: entrance_4_g
+Payload: Lock_OK 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:43 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 53 
+
+Time: Wed Dec 21 10:18:44 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:44 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:44 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 51 
+
+Time: Wed Dec 21 10:18:44 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 51 
+
+Time: Wed Dec 21 10:18:44 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 51 
+
+Time: Wed Dec 21 10:18:45 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:45 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 43 
+
+Time: Wed Dec 21 10:18:45 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:45 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 43 
+
+Time: Wed Dec 21 10:18:45 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 43 
+
+Time: Wed Dec 21 10:18:46 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_NO_FIRE 
+
+Time: Wed Dec 21 10:18:46 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_NO_FIRE 
+
+Time: Wed Dec 21 10:18:46 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 84 
+
+Time: Wed Dec 21 10:18:46 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 84 
+
+Time: Wed Dec 21 10:18:46 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 84 
+
+Time: Wed Dec 21 10:18:47 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 26 
+
+Time: Wed Dec 21 10:18:47 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:47 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:47 2022
+Type: CONTROLLER_AC_NO_CHANGE
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 26 
+
+Time: Wed Dec 21 10:18:47 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 26 
+
+Time: Wed Dec 21 10:18:48 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 99 
+
+Time: Wed Dec 21 10:18:48 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:48 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 99 
+
+Time: Wed Dec 21 10:18:48 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 99 
+
+Time: Wed Dec 21 10:18:48 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:49 2022
+Type: FIRE
+Floor: 4
+Room: entrance_4_g
+Payload: SIG_FIRE 
+
+Time: Wed Dec 21 10:18:49 2022
+Type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 49 
+
+Time: Wed Dec 21 10:18:49 2022
+Type: CONTROLLER_SPRINKLER_OFF
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 49 
+
+Time: Wed Dec 21 10:18:49 2022
+Type: CONTROLLER_SPRINKLER_ON
+Floor: 4
+Room: entrance_4_g
+Payload: FIRE SIG_FIRE 
+
+Time: Wed Dec 21 10:18:49 2022
+Type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL 49 
+

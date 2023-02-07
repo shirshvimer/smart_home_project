@@ -1,0 +1,46 @@
+Time: Sun Nov 13 13:55:55 2022
+Event type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 70
+
+
+Time: Sun Nov 13 13:55:55 2022
+Event type: CONTROLLER_SPRINKLER_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL
+70
+
+
+Time: Sun Nov 13 13:55:55 2022
+Event type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL
+70
+
+
+Time: Sun Nov 13 13:55:58 2022
+Event type: TEMP_LEVEL
+Floor: 1
+Room: room_1_a
+Payload: 70
+
+
+Time: Sun Nov 13 13:55:58 2022
+Event type: CONTROLLER_AC_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL
+70
+
+
+Time: Sun Nov 13 13:55:58 2022
+Event type: CONTROLLER_SPRINKLER_ON
+Floor: 1
+Room: room_1_a
+Payload: TEMP_LEVEL
+70
+
+

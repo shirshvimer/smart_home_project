@@ -1,0 +1,41 @@
+[temp-1-a]
+type = sen_temp
+room = room_1_a
+floor =	1
+log	= ac
+config = iot:1003,sat:242,brigh:154,hue:8200
+
+[ac-1-a]
+type = con_ac
+room = room_1_a
+floor =	1
+log	= ac
+config = iot:1008,sat:242,brigh:154,hue:8200
+
+[fire-1-a]
+type = sen_fire_detector
+room = entrance_4_g
+floor =	4
+log	= safety
+config	= {Token:"78DF6A2BA25DA87",Event:"badge_id"}
+
+[sprinkler-1-a]
+type = con_sprinkler
+room = entrance_4_g
+floor =	4
+log	= safety
+config	= {Token:"78DF6A2BA25DA87",Event:"badge_id"}
+
+[badge-1-a]
+type = sen_badge
+room = entrance_4_g
+floor =	4
+log	= security
+config	= {Token:"78DF6A2BA25DA87",Event:"badge_id"}
+
+[door-a-a]
+type = con_door
+room = entrance_4_g
+floor =	4
+log	= security
+config	= {Token:"78DF6A2BA25DA87",Event:"badge_id"}

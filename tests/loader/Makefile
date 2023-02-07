@@ -1,0 +1,43 @@
+CXX = g++
+CC = $(CXX)
+
+CPPFLAGS = -I$(INC_DIR) -I$(INL_DIR)
+CPPFLAGS += -MMD -MP 
+# c language
+CFLAGS = -g3
+
+# c++ language
+CXXFLAGS = -std=c++17
+CXXFLAGS+= -Wall -pedantic
+CXXFLAGS+= -Werror
+CXXFLAGS+= -g3
+
+LDFLAGS =
+LDLIBS = -pthread
+
+SRC_DIR = ../../src/server
+INC_DIR = ../../inc
+INL_DIR = ../../inc/inl
+
+TARGET = utest
+OBJS = utest.o $(SRC_DIR)/threads_semaphore.o $(SRC_DIR)/threads_thread_pool.o $(SRC_DIR)/agent_manager.o $(SRC_DIR)/events_publisher.o $(SRC_DIR)/agent_aircondition.o $(SRC_DIR)/agent_loader.o $(SRC_DIR)/agent_tempature_sensor.o $(SRC_DIR)/agent_factory.o $(SRC_DIR)/agent_generator.o $(SRC_DIR)/agent_fire_detector_sensor.o $(SRC_DIR)/agent_sprinkler.o
+all: $(TARGET) 
+
+check: $(TARGET)
+	./$(TARGET) -v
+
+$(TARGET): $(OBJS) 
+
+vala: all
+	valgrind --leak-check=yes --track-origins=yes ./$(TARGET)
+
+#utest.o: $(INC_DIR)/sm_code.hpp $(INC_DIR)/sm_compiler.hpp
+
+clean: 
+	@$(RM) $(TARGET) $(OBJS) $(DEPENDS)
+
+.PHONY: all check clean DEPENDS = $(OBJS:%.o=%.d)
+
+DEPENDS = $(OBJS:%.o=%.d)
+ 
+-include $(DEPENDS) 
