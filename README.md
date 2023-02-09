@@ -1,11 +1,11 @@
-## SMART HOME
+# SMART HOME
 
-# Summary
+## Summary
 
 SmartHome is a next generation platform for managing IoT enhanced smart buildings. The platform serves as the controller and integration hub for modules, devices, controllers and sensors that will enable efficient and comfortable operation of the building.
 SmartHome is implemented using C++.
 
-# Main Components
+## Main Components
 
 The system includes the following components:
 
@@ -17,7 +17,7 @@ Sensor agents generate events which will be routed to the controller agents inte
 
 Agents are loaded at system startup according to a configuration file (.ini). Each agent shall be implemented as a dynamic object (.so).
 
-# How To Run The Project
+## How To Run The Project
 
 1.  Main flow:
 
